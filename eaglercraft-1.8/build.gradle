@@ -42,7 +42,7 @@ def folder = "javascript"
 def name = "classes.js"
 
 teavm.js {
-    obfuscated = true
+    obfuscated = false
     sourceMap = true
     targetFileName = "../" + name
     optimization = OptimizationLevel.BALANCED // Change to "AGGRESSIVE" for release
